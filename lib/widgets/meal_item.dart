@@ -25,13 +25,13 @@ class MealItem extends StatelessWidget {
     // if (complexity == Complexity.Simple) {
     //   return 'Simple';
     switch (complexity) {
-      case Complexity.Simple:
+      case Complexity.simple:
         return 'Simple';
       // break;
-      case Complexity.Challenging:
+      case Complexity.challenging:
         return 'Challenging';
       // break;
-      case Complexity.Hard:
+      case Complexity.hard:
         return 'Hard';
       // break;
       default:
@@ -41,11 +41,11 @@ class MealItem extends StatelessWidget {
 
   String get affordabilityText {
     switch (affordability) {
-      case Affordability.Affordable:
+      case Affordability.affordable:
         return 'Affordable';
-      case Affordability.Pricey:
+      case Affordability.pricey:
         return 'Pricey';
-      case Affordability.Luxurious:
+      case Affordability.luxurious:
         return 'Expensive';
       default:
         return 'Unknown';
